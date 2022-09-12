@@ -6,8 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio </title>
 </head>
+<Style>
+    body{
+        /* width: 100%; */
+        /* height: 100%; */
+        background-color: white;
+    }
+    #Home_page{
+        letter-spacing: 1px;
+    
+        font-size: 190%;
+       position: absolute;
+       top: 15%;
+       left: 18%;
+        font-family:'Times New Roman', Times, serif;
+    }
+    #box{
+        border: 3px solid;
+        height: 45px;
+        width: 220px;
+        border-radius: 15px;
+        margin-top: 40px;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-right: -40px;
+        background: linear-gradient(to right, gold , orange );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+        border-radius: 20px;
+        border-image: linear-gradient(90deg, gold , orange );
+        border-image-slice: 1;
+        border-bottom-left-radius: 10%;
+        display: none;
+    
+    }
+    .vik{
+        background: linear-gradient(to right, gold , orange );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* @media (min-width:0px){
+       #box{
+        display: block;
+       }
+    } */
+
+    @media( min-width:500px) and (max-width:800px){
+        #Home_page{
+            font-size: 100%;
+        }
+        #box{
+        display: block;
+        }
+    }
+</Style>
 <body>
-    <h1>My Profile</h1>
+    <!-- <h1>My Profile</h1> -->
+    <div id="Home_page">
+
+       <div >
+          <h1 style="margin-top: 13%;">
+            Hey, my name is   
+            <span class="vik">    M.Vikram </span>
+            <br>
+            I'm Java Backend Developer.
+        </h1>
+        </div>
+        
+            <p id="box">CONTACT ME</p>
+        
+    </div>
+    
 </body>
 </html>
 
