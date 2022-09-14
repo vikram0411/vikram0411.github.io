@@ -7,16 +7,16 @@
     <title>Document</title>
 </head>
 <Style>
-    *{
-        scroll-behavior: smooth;
-    }
     body{
         padding: 0;
-  margin: 0;
-  border: 0;
+        margin: 0;
+         border: 0;
   list-style-type: none;
         background-color: white;
         font-family: Montserrat, sans-serif;display: flex;
+    }
+    *{
+        scroll-behavior: smooth;
     }
     #Home_page{
         letter-spacing: 1px;
@@ -67,11 +67,12 @@
     #About_me{
         padding-top: 8.5px;
         width: 1070px;
-        height: 648px;
+        height: 655px;
         /* border: 1px solid; */
         /* margin-top:50%; */
         background: linear-gradient(to right, skyblue,grey );
         margin-top: 656px;
+        padding-right: 10px;
 
     }
 
@@ -241,28 +242,49 @@
     }
     #navbar{
         width: 20.3%;
-        border: 1px solid;
+        /* border: 1px solid; */
         height: 100%;
-        height: 3800px;
+        height: 4495px;
         background: rgb(255, 243, 245);
-        background: linear-gradient(to right, rgb(255, 243, 245),rgb(223,223,225)
- );
+        background: linear-gradient(to right, rgb(255, 243, 245),rgb(223,223,225));
+        padding-bottom: 61px;
         /* position: sticky;top: 0; */
+    }
+    #navbox>a{
+        color: grey;
+        font-weight: 600;
+        font-size: 23px;
+        
+    }
+    #navbox>a:hover{
+        font-size:25px ;
+        background: linear-gradient(to right, gray,skyblue  );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #Contact{
+        height: 657px;
+        width: 80.09%;
+        /* border: 1px solid red; */
+        /* padding-top: 10px; */
+        /* margin-top: -100px; */
     }
 </Style>
 <body>
     
-    <div style="display: flex;width: 100%;height: 3800px;border: 1px solid; ">
+    <div style="display: flex;width: 100%;height: 3800px; ">
       <div id="navbar">
           
-          <div style="position: sticky;top: 0;text-decoration: none;">
-            <img src="Round Photo_Sep132022_092636.png" style="height: 200px;" alt="">
+          <div id="navbox" style="position: sticky;top: 0;text-decoration: none;">
+            <div style="background-color: rgb(39,35,65);height: 250px;width: 250px;position: absolute;border-radius: 100%;margin-top: 40px;margin-left: 10px;"></div>
+            <img src="Round Photo_Sep132022_092636.png" style="height: 230px;width: 230px; position: absolute;margin-left: 20px;margin-top: 50px;" alt="">
             <br>
-            <a href="" >Home</a><br>
-            <a href="#About_me" >About Me</a><br>
-            <a href="#tc">Skills</a> <br>
-            <a href="#edu">Education</a><br>
-            <a href="#pj">Projects</a><br>
+            <a style="position: absolute;margin-top: 300px;margin-left: 97px;" href="#content" >HOME</a><br>
+            <a style="position: absolute;margin-top: 330px;margin-left: 92px;" href="#About_me" >ABOUT</a><br>
+            <a style="position: absolute;margin-top: 360px;margin-left: 92px;" href="#tc">SKILLS</a> <br>
+            <a style="position: absolute;margin-top: 390px;margin-left: 66px;" href="#edu">EDUCATION</a><br>
+            <a style="position: absolute;margin-top: 420px;margin-left: 71px;" href="#pj">PROJECTS</a><br>
+            <a style="position: absolute;margin-top: 450px;margin-left:  75px;" href="#cont">CONTACT</a>
         </div>
 
       </div>
@@ -270,7 +292,7 @@
 
         <div id="Home_page">
 
-            <div>
+            <div style="width: 85%;">
     
                 <div >
                    <h1 style="margin-top: 13%;">
@@ -279,8 +301,10 @@
                      my name is   
                      <span class="vik">    M.Vikram </span>
                      <br>
-                     I'm Java Backend Developer.
+                     I'm a
+                    <span class="vik">  Backend Software Engineer.</span>
                  </h1>
+                 <p>A passionate Java Backend Developer skilled in designing and buliding java codes to increase efficiency of Websites.with proven performance in management, communication, and creative thinking skills. </p>
                  <a href="https://drive.google.com/file/d/1kfXTAuPCpqqT3gY7KE-nEBquBn4_zk91/view?usp=sharing" target="_blank">
                      <p id="box">RESUME</p>
                  </a>
@@ -392,9 +416,9 @@
         </div>
         
         
-        <div class="dots" style="margin-top: -475px;margin-left: 39.25%;"></div>
-        <div class="dots" style="margin-top: -325px;margin-left: 39.25%;"></div>
-        <div class="dots" style="margin-top: -175px;margin-left: 39.25%;"></div> </div>
+        <div class="dots" style="margin-top: -475px;margin-left: 39.55%;"></div>
+        <div class="dots" style="margin-top: -325px;margin-left: 39.55%;"></div>
+        <div class="dots" style="margin-top: -175px;margin-left: 39.55%;"></div> </div>
         
         <div id="pj">
             <h1 style="text-align: center;  background: linear-gradient(to right,gold, orange );
@@ -404,7 +428,7 @@
             <div id="Project">
               
 
-                <div class="pb" style="width: 40%;margin-left: 5%;height: 100%; ">
+                <div class="pb" style="width: 40%;margin-left: 5%;height: 80%; ">
 
                     <h1 style="  background: linear-gradient(to right,gold, orange );
                     -webkit-background-clip: text;
@@ -475,18 +499,42 @@
                 
                 </div>
 
-                <div class="pb" style="width: 50%;height: 100%;width: 55%;">
+                <div class="pb" style="width: 50%;height: 79%;width: 55%;">
                     <img src="Screenshot (45).png" alt="" style="position: absolute; width: 37.5%;margin-top: 15px; box-shadow: 5px 5px 5px 5px rgb(204, 203, 203);">
                     <img src="https://user-images.githubusercontent.com/101388758/184337906-5120d6ed-043c-4e41-b657-f7e0ca868dd4.png" alt="" style="position: absolute;width: 37.5%;margin-top: 350px; box-shadow: 5px 5px 5px 5px rgb(204, 203, 203);"> 
-                    
                     <img src="https://github.com/mrFarooque/HindustanNews/raw/main/projectImg/HomePage.png" alt="" style="position: absolute;width: 37.5%;margin-top: 700px; box-shadow: 5px 5px 5px 5px rgb(204, 203, 203);">
             
                     </div>
             
             </div>
         </div>
-        
-        <p style="position: absolute;margin-top: -35px;">Created by M.Vikram</p>
+
+        <div id="Contact" style="background: rgb(2,42,48);position: absolute;">
+            <div style="height: 1px ;width: 100%; margin-top: 1px;" id="cont"></div>
+            <h1 style="text-align: center;  
+            /* background: rgb(42,90,96); */
+            color: rgb(200,225,119); 
+            /* border: 1px solid greenyellow; margin-top: 0px; */
+            /* background: linear-gradient(to right,gold, orange ); */
+            /* -webkit-background-clip: text;padding-top: 0px; */
+            /* padding-bottom: 0px; */
+            /* -webkit-text-fill-color: transparent; */
+            font-size: 50px;line-height: 60px;padding-top: 100px;">CONTACT</h1>
+
+                <h1 style="color: white;text-align: center;font-size: 50px;margin-top: 50px;"  >9873144165</h1>
+
+
+            <h1 style="color: whitesmoke;text-align: center;font-size: 55px;margin-top: 100px;letter-spacing: 3px;">Don't be a Stranger </h1>
+            <h1 style="color: whitesmoke;text-align: center;font-size: 55px;">Let's talk</h1>
+
+        </div>
+        <div style="border: 1px solid red ;height: 100px;">
+
+        </div>
+        <div style="position: absolute;background: rgb(42,90,96); height: 40px;margin-top: 555px;width: 80.09%;color: white;">
+            <p style="margin-left: 10%;">Created by M.Vikram</p>
+        </div>
+
     </div>
     </div>
 
