@@ -2,7 +2,9 @@
 
 
 @media (min-width: 1075px) and (max-width: 1500px){
-
+    #butbox{
+        display: flex; gap: 40px;margin-top: 30px;
+    }
     #head1{
         text-align: center;color: white;font-size: 50px;line-height: 60px;
     }
@@ -458,7 +460,9 @@
  /* ////////////////////////////////////////////// */
 
 @media (min-width: 1025px) and (max-width: 1174px){
-    
+    #butbox{
+        display: flex; gap: 40px;margin-top: 30px;
+    }
     #head1{
         text-align: center;color: white;font-size: 50px;line-height: 60px;
     }
@@ -914,7 +918,9 @@
  /* ////////////////////////////////////////////// */
 
  @media (min-width: 768px) and (max-width: 1024px){
-    
+    #butbox{
+        display: flex; gap: 40px;margin-top: 30px;
+    }
     #head1{
         text-align: center;color: white;font-size: 35px;line-height: 60px;margin-top: 0px;
         /* border: 1px solid black ; */
@@ -1431,7 +1437,9 @@
  /* ////////////////////////////////////////////// */
 
  @media (min-width: 481px) and (max-width: 767px){
-    
+    #butbox{
+        display: flex; gap: 40px;margin-top: 30px;
+    }
     #head1{
         text-align: center;color: white;font-size: 35px;line-height: 60px;margin-top: 0px;
         /* padding-top: 100px; */margin-top: -50px;
@@ -1955,7 +1963,10 @@
  /* ////////////////////////////////////////////// */
 
  @media  (max-width: 480px){
-    
+    #butbox{
+        /* border: 1px solid; */
+        display: flex; gap: 20px;margin-top: 30px;
+    }
     #head1{
         text-align: center;color: white;font-size: 35px;line-height: 60px;margin-top: 0px;
         /* padding-top: 100px; */margin-top: -50px;
@@ -2043,6 +2054,8 @@
     }
     *{
         scroll-behavior: smooth;
+        margin-left: 0px;
+        margin-right: 2px;
         /* background: #000 !important;
         color:  #0f0 !important;
         outline: solid #f00  1px !important; */
@@ -2094,7 +2107,7 @@
     }
     #About_me{
         /* padding-top: -8.5px; */
-        /* width:98.7%; */
+        width:97%;
         height: 310px;
         position: absolute;
         /* border: 1px solid; */
@@ -2219,7 +2232,7 @@
         padding-top:10px;
         /* padding-top: 1000px; */
         margin-top: -20px;
-        /* width:; */
+        width:101%;
         padding-top: 01px;
         border: 0px solid;
      }
@@ -2378,7 +2391,7 @@
     }
     #Contact{
         height: 430px;
-        width: 100%;
+        width: 100.8%;
         /* border: 1px solid red; */
         /* padding-top: 10px; */
         /* margin-top: -100px; */
