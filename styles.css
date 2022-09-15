@@ -2464,7 +2464,7 @@
         font-weight: 700;
     }
     #ae{
-        height: 5px; width: 50%;position: absolute;margin-top: -20px;
+        height: 5px; width: 50%;position: absolute;margin-top: -20px; border: 1px sol;
     }
     #ad{
         height: 5px; width: 50%;position: absolute;margin-top: -20px;
