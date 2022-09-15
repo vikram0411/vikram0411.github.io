@@ -2390,7 +2390,7 @@
         /* border: 1px solid blue; */
     }
     #Contact{
-        height: 430px;
+        height: 480px;
         width: 100.8%;
         /* border: 1px solid red; */
         /* padding-top: 10px; */
@@ -2464,13 +2464,13 @@
         font-weight: 700;
     }
     #ae{
-        height: 5px; width: 50%;position: absolute;margin-top: -20px; border: 1px sol;
+        height: 5px; width: 50%;position: absolute;margin-top: -20px; 
     }
     #ad{
-        height: 5px; width: 50%;position: absolute;margin-top: -20px;
+        height: 5px; width: 50%;position: absolute;margin-top: -20px; 
     }
     #ac{
-        height: 5px; width: 50%;position: absolute;margin-top: 30px;
+        height: 5px; width: 50%;position: absolute;margin-top: -20px; 
     }
     #ab{
         height: 5px; width: 50%;position: absolute;
