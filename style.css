@@ -388,7 +388,7 @@ section .title::after{
     border-radius: 6px;
     /* border: 1px solid red; */
     padding: 25px;
-    height: 520px;
+    height: 540px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
