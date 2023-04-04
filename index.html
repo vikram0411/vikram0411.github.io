@@ -177,7 +177,7 @@
                        
                         <div class="bars">
                             <div class="info" style="display: flex; flex-direction: column;">
-                                <img src="images/html.png" alt=""style="height: 80px;margin-left: 60px;margin-top: -1px">
+                                <img src="images/html.png" alt=""style="height: 80px;margin-left: 40px;margin-top: -1px">
                                 
                             </div>
                         </div>
@@ -206,7 +206,7 @@
                     <div style="display: flex;gap: 37px;">
                         <div class="bars">
                             <div class="info" style="display: flex; flex-direction: column;">
-                                <img src="images/java.png" alt=""style="height: 75px;margin-right: -10px;margin-left: 60px">
+                                <img src="images/java.png" alt=""style="height: 75px;margin-right: -10px;margin-left: 40px">
                                 <!-- <p>java</p> -->
                             </div>
                         </div>
@@ -229,7 +229,7 @@
                     <div style="display: flex;gap: 28px;">
 
                         <div class="bars">
-                            <div class="info" style="display: flex; flex-direction: column;margin-left: 70px;">
+                            <div class="info" style="display: flex; flex-direction: column;margin-left: 50px;">
                                 <img src="images/spring.png" alt=""style="height: 70px;">
                             </div>
                         </div>
@@ -253,7 +253,7 @@
                     <div style="display: flex;gap: 28px;">
 
                         <div class="bars">
-                            <div class="info" style="display: flex; flex-direction: column;margin-left: 70px;">
+                            <div class="info" style="display: flex; flex-direction: column;margin-left: 50px;">
                                 <img src="images/django.png" alt=""style="height: 70px;">
                             </div>
                         </div>
@@ -271,7 +271,7 @@
                        
                         <div class="bars">
                             <div class="info" style="display: flex; flex-direction: column;">
-                                <img src="images/post.png" alt=""style="height: 70px;margin-left: 70px">
+                                <img src="images/post.png" alt=""style="height: 70px;margin-left: 50px">
                                 
                             </div>
                         </div>
@@ -296,7 +296,7 @@
                        
                         <div class="bars">
                             <div class="info" style="display: flex; flex-direction: column;">
-                                <img src="images/vs.png" alt=""style="height: 75px;margin-left: 70px">
+                                <img src="images/vs.png" alt=""style="height: 75px;margin-left: 50px">
                             </div>
                         </div>
     
@@ -492,17 +492,17 @@
                 <div class="column right">
                     <div class="text">Message me</div>
                     <!-- <p>Don't be a stranger .Lets talk</p> -->
-                    <form action="https://formsubmit.co/vikram987314@gmail.com" method="post">
+                    <form   onsubmit="sendEmail()">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" id="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" id="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
@@ -524,6 +524,25 @@
 
     <script src="script.js"></script>
 </body>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    function sendEmail(){
+        console.log("joo")
+
+        Email.send({
+            securityToken: "d35dc516-5a27-4119-aa50-23f3d5c5323b",
+            To : 'vikram987314@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : document.getElementById("subject").value,
+            Body : "And this is the body",
+        }).then(
+          message => alert(message)
+        );
+
+
+    }
+</script>
 </html>
 
   
