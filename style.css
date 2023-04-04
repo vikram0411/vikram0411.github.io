@@ -330,7 +330,7 @@ section .title::after{
 }
 .skills .skills-content .col{
     width: 33%;
-    min-width: 400px;
+    min-width: 350px;
     padding-bottom: 20px;
     font-size: 20px;
     font-weight: 600;
