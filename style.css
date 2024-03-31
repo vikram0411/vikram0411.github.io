@@ -221,7 +221,7 @@ section .title::after{
     content: "who i am";
 }
 .about .about-content .left{
-    width: 100%;
+    width: 0%;
 }
 .about .about-content .left img{
     height: 400px;
@@ -230,7 +230,7 @@ section .title::after{
     border-radius: 6px;
 }
 .about .about-content .right{
-    width: 0%;
+    width: 100%;
 }
 .about .about-content .right .text{
     font-size: 25px;
