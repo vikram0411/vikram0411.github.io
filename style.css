@@ -37,6 +37,7 @@ section{
 }
 .homeProfileImage{
     margin-left:1000px;
+    colour:crimson;
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
